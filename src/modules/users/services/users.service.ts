@@ -29,7 +29,7 @@ export class UsersService {
     return this.usersRepository.findAndCount({
       relations: ['organization'],
       order: getOrderValue(sortBy),
-      skip: getSkipValue(page, pageSize),
+      skip: 0,
       take: pageSize,
     });
   }

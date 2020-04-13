@@ -23,7 +23,7 @@ export class CreateUserRequest {
   @Length(1, 64)
   readonly organization: string;
 
-  @ApiProperty({ enum: RoleType })
+  @ApiProperty({ type: [String], enum: RoleType })
   @ArrayNotEmpty()
   @IsEnum(RoleType, { each: true })
   readonly roles: RoleType[];
