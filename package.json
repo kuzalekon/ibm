@@ -10,7 +10,7 @@
     "@nestjsx/api-version": "^0.1.1",
     "@nestjsx/common": "^1.0.0",
     "@types/lodash": "^4.14.149",
-    "class-transformer": "^0.2.3",
+    "class-transformer": "^0.3.1",
     "class-validator": "^0.11.1",
     "helmet": "^3.22.0",
     "lodash": "^4.17.15",
